@@ -2,9 +2,11 @@ package demo.builder;
 
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import lombok.ToString;
 
 @NoArgsConstructor
 @Setter
+@ToString
 public class HamburgerJavaBean {
     // 필수 매개변수
     private int bun;
