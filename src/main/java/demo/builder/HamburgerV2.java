@@ -4,10 +4,13 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
+/*
+자바 빈 버전 (SETTER)
+ */
 @NoArgsConstructor
 @Setter
 @ToString
-public class HamburgerJavaBean {
+public class HamburgerV2 {
     // 필수 매개변수
     private int bun;
     private int patty;
