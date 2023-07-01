@@ -1,6 +1,9 @@
 package demo.builder;
 
-public class HamburgerBasic {
+/*
+기본 생성자 버전
+ */
+public class HamburgerV1 {
     // 필수 매개변수
     private int bun;
     private int patty;
@@ -11,7 +14,7 @@ public class HamburgerBasic {
     private int tomato;
     private int bacon;
 
-    public HamburgerBasic(int bun, int patty, int cheese, int lettuce, int tomato, int bacon) {
+    public HamburgerV1(int bun, int patty, int cheese, int lettuce, int tomato, int bacon) {
         this.bun = bun;
         this.patty = patty;
         this.cheese = cheese;
@@ -20,7 +23,7 @@ public class HamburgerBasic {
         this.bacon = bacon;
     }
 
-    public HamburgerBasic(int bun, int patty, int cheese, int lettuce, int tomato) {
+    public HamburgerV1(int bun, int patty, int cheese, int lettuce, int tomato) {
         this.bun = bun;
         this.patty = patty;
         this.cheese = cheese;
@@ -29,20 +32,20 @@ public class HamburgerBasic {
     }
 
 
-    public HamburgerBasic(int bun, int patty, int cheese, int lettuce) {
+    public HamburgerV1(int bun, int patty, int cheese, int lettuce) {
         this.bun = bun;
         this.patty = patty;
         this.cheese = cheese;
         this.lettuce = lettuce;
     }
 
-    public HamburgerBasic(int bun, int patty, int cheese) {
+    public HamburgerV1(int bun, int patty, int cheese) {
         this.bun = bun;
         this.patty = patty;
         this.cheese = cheese;
     }
 
-    public HamburgerBasic(int bun, int patty) {
+    public HamburgerV1(int bun, int patty) {
         this.bun = bun;
         this.patty = patty;
     }
