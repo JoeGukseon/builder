@@ -1,14 +1,14 @@
 package demo.builder;
 
-import lombok.Builder;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
 /*
 Builder 버전
  */
 @Builder
 @ToString
+@NoArgsConstructor(access = AccessLevel.PROTECTED)
+@AllArgsConstructor
 public class HamburgerV3 {
     // 필수 파라미터
     private int bun;
